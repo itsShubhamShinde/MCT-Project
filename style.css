@@ -24,9 +24,9 @@ body{
     width: 20%;
     display: flex;
     justify-content:flex-start;
-    align-items:center;
-    
+    align-items:center; 
 }
+
 .titleDivisionLeftSectionImg{
     /* border: 2px solid yellow; */
     height: 40%;
@@ -44,6 +44,10 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
+.titleDivisionMiddleSection:hover p{
+    cursor: pointer;
+    color: #ef9e48;
+}
 .titleDivisionRightSection{
     /* border: 1px solid blue; */
     height: 90%;
@@ -53,7 +57,7 @@ body{
     align-items: center;
 }
 .titleDivisionRightSection p{
-    color: orange;
+    color: #ef9e48;
     /* border: 2px solid gray; */
     height: 50%;
     width: 50%;
@@ -63,7 +67,11 @@ body{
     align-items: center;
     border-radius: 5px;
 }
-
+.titleDivisionRightSection:hover p{
+    cursor: pointer;
+    color: white;
+    background-color: #ef9e48;
+}
 /* ----------------------------------------------------- */
 .mainDivision1{
     /* border: 2px solid black; */
@@ -127,11 +135,14 @@ body{
     /* border: 1px solid gray; */
     width: 80%;
     height: 10%;
-    background-color: yellow;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.mainDivision1LeftSectionSubDiv4:hover{
+    cursor: pointer;
+    border: 1px solid orange;
 }
 .mainDivision1LeftSectionSubDiv4 input{
     /* border: 2px solid white; */
@@ -183,7 +194,7 @@ body{
     align-items: flex-end;
 }
 .mainDivision1RightSectionPhotoDiv{
-    border: 2px solid yellow;
+    border: 2px solid #ffdc6b;
     height: 90%;
     width: 80%;
     border-radius: 5px;
@@ -278,6 +289,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
+}
+.textContainDiv2:hover h4{
+    cursor: pointer;
+    color: #ef9e48;
 }
 .textContainDiv3{
     /* border: 1px solid blue; */
@@ -414,7 +429,11 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.mainDivision3RightSectionSubDiv4:hover{
+    cursor: pointer;
+    background-color: #ef9e48;
+    color: white;
+}
 /* ----------------------------------------------------- */
 .mainDivision4{
     /* border: 2px solid black; */
@@ -562,6 +581,10 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.classesVideo:hover{
+    cursor: pointer;
+    background-color: #2ba887;
 }
 hr{
     height: 60%;
@@ -776,12 +799,17 @@ hr{
     /* border: 2px solid green; */
     height: 80%;
     width: 40%;
-    color: orange;
+    color: #ef9e48;
     background-color: #fcf2e8;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.freePlaneSubDiv3:hover p{
+    cursor: pointer;
+    background-color: #ef9e48;
+    color: white;
 }
 .mainDivision6BottomSectionRightSubDivision{
     border: 2px solid #3fdbb1;
@@ -1033,11 +1061,16 @@ hr{
     height: 70%;
     width: 30%;
     border-radius: 5px;
-    color: orange;
+    color: #ef9e48;
     background-color: #fcf2e8;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.mainDivision7RightSectionTextDiv4:hover p{
+    cursor: pointer;
+    background-color: #ef9e48;
+    color: white;
 }
 /* ----------------------------------------------------- */
 .mainDivision8{
@@ -1117,10 +1150,15 @@ hr{
     background-color: #fcf2e8;
     font-family: 'Poppins', sans-serif;
     margin-top: 40px;
-    color: orange;
+    color: #ef9e48;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.mainDivision9:hover p{
+    cursor: pointer;
+    background-color: #ef9e48;
+    color: white;
 }
 /* ----------------------------------------------------- */
 
@@ -1158,6 +1196,10 @@ hr{
     align-items: flex-start;
     justify-content: space-around;
     list-style: none;
+}
+.mainDivision10FooterSubDiv:hover ul{
+    cursor: pointer;
+    color: #ef9e48;
 }
 
 /* ----------------------------------------------------- */
